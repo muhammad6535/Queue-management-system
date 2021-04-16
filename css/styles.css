@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #848484;   
+}
+
+.fullscreen_bg {
+    padding-top: 1%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+}
+
+/*  bhoechie tab */
+
+div.bhoechie-tab-container {
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-left: 50px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+}
+
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+div.bhoechie-tab-menu ul.list-group > a {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+div.bhoechie-tab-menu ul.list-group > a .glyphicon,
+div.bhoechie-tab-menu ul.list-group > a .fa {
+    color: #00001a;
+}
+
+div.bhoechie-tab-menu ul.list-group > a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group > a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group > a.active,
+div.bhoechie-tab-menu ul.list-group > a.active .glyphicon,
+div.bhoechie-tab-menu ul.list-group > a.active .fa {
+    background-color: #004c99;
+    background-image: #5A55A3;
+    color: #ffffff;
+}
+
+div.bhoechie-tab-menu ul.list-group > a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #5A55A4;
+}
+
+div.bhoechie-tab-content {
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+
+.navbar-default {  
+    z-index: 99999;
+}
+
+		.footer-distributed{
+	background-color: #101010;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: -0.3% 0 10px;
+	padding: 1.5%;
+    margin-left: 1%;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+    margin-right: 3%;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+        text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}

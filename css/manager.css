@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    text-align: center;
+}
+
+/*  Almost Uniform Shape And Appearance For All Buttons */
+
+.btn-primary:focus {
+    background-color: #019393;
+    border-color: #019393;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #019393;
+    border-color: #019393;
+    margin-left: 0%;
+}
+
+.btn-del :focus {
+    background-color: #019393;
+    border-color: #019393;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Same Hover Appearance For All Buttons */
+.br:hover {
+    color: #fff;
+    background-color: #019393;
+    border-color: #019393;
+    box-shadow: none;
+    outline: none;
+}
+
+.br
+{
+    height: 6%;
+    width: 100%;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: black;
+    border-color:black;
+}
+
+/* Delete Button--> Same Appearance For All The Delete Buttons */
+#delorg{
+    color: red;
+}
+#delorg:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.delBranch{
+    color: red;
+}
+
+.delBranch:hover{
+    color: white;
+    background-color: red;
+}
+
+
+.btn-del {
+    color: #fff;
+    background-color: #019393;
+    border-color: #019393;
+}
+
+/* Sections */
+section {
+    text-align:right;
+    color: #000066;
+    text-transform: uppercase;
+}
+/* Cards */
+#team .card {
+    padding-top: 1%;
+    background-color:rgba(255, 255, 255, 0.9);
+}
+
+
+.frontside .card {
+    min-height: 25%;
+}
+
+.frontside .card .card-title {
+    color: #019393 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* ADD / EDIT Buttons Same Shape And Appearance */
+#add-branche {
+    
+   margin: auto;
+    width: 100%;
+    padding: 13%;
+}
+
+#edit-manager
+{
+    margin: auto;
+    width: 100%;
+    padding: 13%;
+}
+
+#edit-orga
+{
+    margin: auto;
+    width: 100%;
+    padding: 13%;
+}
+
+#edit-branche
+{
+    margin: auto;
+    width: 100%;
+    padding: 13%;
+}
+
+#orderForm {
+    
+   margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#team {
+    text-align: center;
+}
+
+.btn-update:hover {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-update{
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-delete:hover {
+    color: #fff;
+    background-color: #d83631;
+    border-color: #d83631;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-delete{
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    background-color: #e29a98;
+}
+
+/* Modals CSS */
+
+#modal {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#edit-modal{
+    padding-top: 3%;
+}
+
+#edit-modal-up{
+    padding: 0px;
+}
+
+.hclass{
+    font-size: 150%;
+    display: block;
+    font-family: 'Stanley';
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2 {
+    font-family:arial;
+}
+
+form {
+    display: inline-block;
+}
+/* List */
+.list {
+	font-family:"Trebuchet MS";
+    font-size:20px;
+	color:#000000;
+    cursor:pointer;
+}
+
+
+.m{
+    background-color: black;
+}
+
+.hour{
+    width: 210%;
+    margin-left: -40%;
+}
+
+
+#edit-Hours{
+    margin: auto;
+    width: 100%;
+    padding: 0%;
+}
+
+.minAvg {
+    width:100%;
+}
+
+	
+		.footer-distributed{
+	background-color: #101010;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: -0.3% 0 10px;
+	padding: 1.5%;
+    margin-left: 1%;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+    margin-right: 3%;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+        text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+		
+		

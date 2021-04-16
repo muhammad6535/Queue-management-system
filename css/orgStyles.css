@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    text-align: center;
+}
+
+/*  Almost Uniform Shape And Appearance For All Buttons */
+
+#add:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+#add {
+    color: #fff;
+    background-color: #019393;
+    border-color: #019393;
+    margin-right: 88%;
+}
+
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #019393;
+    border-color: #019393;
+}
+
+/* Section */
+
+section {
+    text-align: right;
+    color: #000066;
+    text-transform: uppercase;
+}
+
+
+
+/* Cards CSS */
+
+#team .card {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.frontside .card {
+    min-height: 300px;
+}
+
+.frontside .card .card-title {
+    color: #019393 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Modals */
+
+#modal {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#edit-modal {
+    padding-top: 3%;
+}
+
+.modal-header {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#myModalLabel {
+    color: #019393;
+}
+
+
+#order-modal {
+    padding-top: 3%;
+    width: 70%;
+}
+
+#braName,
+.days {
+    color: #019393;
+}
+
+.col-xs-6 ltr {
+    unicode-bidi: embed;
+    direction: ltr;
+}
+
+.servType.minAvg.form-control {
+    width: 196px !important;
+}
+
+.footer-distributed {
+    background-color: #101010;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    text-align: left;
+    font: normal 16px sans-serif;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: -0.3% 0 10px;
+    padding: 1.5%;
+    margin-left: 1%;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+    margin-right: 3%;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
+
+
+
